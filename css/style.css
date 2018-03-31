@@ -1,0 +1,463 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i');
+
+
+
+.ba-container {
+	max-width: 1170px;
+}
+
+body {
+	font-family: "Open Sans",  "Arial", sans-serif;
+	font-size: 16px;
+}
+
+
+.ba-header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 25px 0px 25px 0px;
+}
+.ba-logo {
+	cursor: pointer;
+}
+
+	.ba-logo__image {
+		margin-top: 20px;
+	}
+
+.ba-navigation {
+
+	float: right;
+}
+	.ba-navigation__list {
+		list-style-type: none;
+	}
+	
+	.ba-navigation__list__item {
+		float: left;
+		
+	}
+	.ba-navigation__item,.ba-navigation__link {
+		display: inline-block;
+		position: relative;
+		left: 25px;
+		font-size: 16px;
+		line-height: 1.7;
+		text-decoration: none;
+		color: #fff;
+		border: 1px solid transparent;
+		padding: 4px 20px;
+		border-radius: 20px;
+		transition: 0.2s ease-in;
+ 		transition-property: border-color;	
+ 		cursor: pointer;
+ 	}
+		.ba-navigation__link:hover,
+		.ba-navigation__link:active,
+		.ba-navigation__link:focus {
+			border-color: #fff;
+		}
+		
+		
+	
+ 
+
+ .ba-hello {
+ 	padding: 220px	0 75px; 	
+ 	background: url(../images/hello-bg.jpg) center center no-repeat;
+ 	background-size: cover;
+ }
+
+ 	.ba-site-title {
+ 		font-family: "Source Sans Pro", "Arial", sans-serif;
+ 		color: #fff;
+ 		font-size: 35px;
+ 		text-transform: uppercase;
+ 		font-weight: 300;
+ 		letter-spacing: 7px;
+ 		text-align: center;
+ 		padding-top: 40px;
+ 		}
+ 	
+ 	.ba-site-subtitle {
+ 		font-family: "Open Sans",  "Arial", sans-serif;
+ 		color: #fff;
+ 		font-size: 16px;
+ 		letter-spacing: 1px;
+ 		text-align: center;
+ 		line-height: 1.9;
+ 		width: 660px;
+ 		display: block;
+ 		margin: 0 auto;
+ 		margin-bottom: 215px;
+ 	}
+ 	
+ 
+ .ba-scroll {
+ 	display: block;
+ 	width: 36px;
+ 	height: 36px;
+ 	margin: 0 auto;
+ 	border: 1px solid #19bd9;
+ 	background-color:  #19bd9a;
+ 	border-radius: 18px;	
+ 	cursor: pointer;
+ 	transition: 0.2s ease-in;
+ }
+ 	
+
+ 		.ba-scroll__image {
+ 			position: relative;
+ 			top: 7px;
+ 			left: 11px;
+ 			
+ 		}
+ 		.ba-scroll__image:hover,
+		.ba-scroll__image:active,
+		.ba-scroll__image:focus {
+			border-color: darken(#19bd9a, 20%);
+			background-color: darken(#19bd9a, 20%);
+		}
+ 	
+ 	
+ 
+
+ 
+ .ba-section {
+ 	padding: 60px 0 0 10px;}
+ 	
+ 	.ba-section__title {
+ 		text-transform: uppercase;
+ 		text-align: center;
+ 		font-family: "Source Sans Pro", "Arial", sans-serif;;
+ 		font-weight: 300;
+ 		font-size: 20px;
+ 		letter-spacing: 0.2em;
+ 		margin-bottom: 30px;
+ 		color: #333b46;
+ 	}
+ 	.ba-section__subtitle {
+ 		text-align: center;
+ 		width: 470px;
+ 		margin: 0 auto; 
+ 		line-height: 1.8;
+ 		font-size: 14px;
+ 		letter-spacing: 0.05em;
+ 		color: #81868e;
+ 	}
+ 	
+	
+
+
+
+.ba-portfolio {
+  width: 100%;
+  padding: 70px;
+  background: #f3f3f3;
+}
+
+
+.button {
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  padding-bottom:10px;  
+  cursor: pointer;
+  margin-left: 30px;
+  margin-bottom: 73px;
+}
+
+.button:hover {
+ border-bottom-color:#19bd9a;
+}
+
+.button-group {/* Приближение из-за подстановки шрифтов */
+text-align: center;
+font-family: OpenSans;
+color:  #464646;
+font-size: 16px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 12px; 
+  margin: 0;
+  margin-top: 80px;
+}
+.grid {width: 100%;
+	margin: 0 auto;
+    overflow: hidden;
+
+}
+.element-item {
+  overflow: hidden;
+  
+  width: 270px;
+  
+  margin: 5px;
+  
+}
+    
+.element-item img {
+	width: 100%;
+}
+
+ 
+ .ba-team {background: #fff;
+ 	height: 770px;
+ }
+ .ba-slide__wr {
+ 	position: relative;
+ 	right: -45px;
+ 	padding-right: 45px;
+ 	border-right: 4px solid #19bd9a;
+ }
+ 
+ .ba-team-slider {
+
+ 	width: 1130px;
+ 	height: 375px;
+ 	margin: 60px auto
+ 	
+ }
+ .ba-team-slide {
+ 	padding-left: 40px;
+ 	padding-right: 100px;
+ 	outline: none;}
+
+ 	.ba-team-slide__description {
+ 		text-align: right;
+ 	 	}
+
+ 	.ba-team-slide__name {
+ 		font-size: 20px;
+ 		color: #464646;
+ 		margin-top: 22px;
+ 		margin-bottom: 5px;
+ 	}
+ 	.ba-team-slide__position {
+ 		margin-top: 5px;
+ 		margin-bottom: 20px;
+ 		text-transform: uppercase;
+ 		font-size: 14;
+ 		font-weight: 300;
+ 		font-family:  "Source Sans Pro", "Arial", sans-serif;
+ 		font-style: italic;
+ 		letter-spacing: 0.03em;
+ 	}
+
+ 	p {
+ 		line-height: 1.6;
+ 		color: #81868e;
+ 	}
+ 
+
+.slick-dots li {
+	margin: 0;
+}
+
+.slick-dots li button {
+	padding: 0;
+	width: 10px;
+	height: 10px;
+}
+
+.slick-dots li button:before {
+	content: " ";
+	opacity: 1;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid #19bd9a;
+	width: 10px;
+	height: 10px;
+}
+
+.slick-dots li.slick-active button:before,
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+	background-color: #19bd9a;
+	border-radius: 50%;
+	opacity: 1;
+}
+.ba-pre-contact {background-image: url(../images/bg-contact.jpg);
+	padding: 40px 0 20px;}
+
+	.ba-pre-contact__title {
+		color: #fff;
+		font-size: 20px;
+		font-weight: 400;
+		text-transform: capitalize;
+		text-align: center;
+		letter-spacing: 0.03em;
+	}
+	.ba-pre-contact__btn {
+		display: block;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+		text-transform: capitalize;
+		border: 1px solid #fff;
+		width: 140px;
+		margin: 0 auto;
+		line-height: 2.1;
+		border-radius: 20px;
+		margin-top: 30px;
+		margin-bottom: 40px;
+		cursor: pointer;
+		transition: 0.2s ease-in;
+ 		}
+ 		
+		.ba-pre-contact__btn:hover,
+		.ba-pre-contact__btn:active,
+		.ba-pre-contact__btn:focus {
+			color:#000000;
+			border-color: #000000;
+			background-color: #fff;
+		}
+		
+	
+
+
+.ba-testimonials {
+	background-color: #f3f3f3;
+	padding-bottom: 20px;}
+
+	.ba-testimonials .slick-dots{
+		bottom: 100px;
+	}
+	
+
+.ba-testimonials-slider {
+	margin-top: 50px;
+	width: 1170px;
+	height: 370px;
+	
+}
+.ba-testimonials-slide {
+	
+	padding-bottom: 100px;
+	background-color: #fff;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	padding-top: 40px;
+	padding-left: 90px;
+
+}
+	
+
+	.ba-testimonials__pic-wrapper {
+		padding-top: 15px;}
+
+	.ba-testimonials__description {
+		
+		padding-left: 15px;
+		line-height: 1.7;
+		padding-right: 100px;
+		letter-spacing: 0.03em;
+		color: #81868e;
+		
+	}
+	
+		
+	
+	.ba-testimonials__name {
+		text-transform: uppercase;
+		color: #19bd9a;
+		font-size: 16px;
+		font-weight: 700;
+		padding-top: 10px;
+		margin-bottom: 0;
+		line-height: 1;
+	}
+	.ba-testimonials__position {
+		margin-top: 0;
+		text-transform: uppercase;
+		font-size: 14px;
+		color: #464646;
+	}
+	
+	.ba-testimonials .slick-dots {
+    bottom: 100px;
+}
+
+.ba-map {
+	height: 440px;
+	width: 100%;
+	margin-top: 70px;
+}
+.ba-contact {
+	padding-top: 50px;
+	
+}
+.ba-footer {
+	padding-top: 50px;}
+
+	.ba-footer .ba-logo {
+		text-align: center;
+		display: block;
+		
+	}
+	.ba-footer p {
+		text-align: center;
+		font-size: 14px;
+		letter-spacing: 0.05em;
+		margin-top: 20px;
+		color: #81868e;
+	}
+
+	
+}
+.ba-social-networks__item:nth-child(1){
+	background-color: #3b5998;
+}
+
+.ba-social-networks__item:nth-child(2) {
+	background-color: #26a6d1;
+}
+.ba-social-networks__item:nth-child(3) {
+	background-color: #0e76a8;
+}
+.ba-social-networks__item:nth-child(4) {
+	background-color: #3f729b;
+}
+.ba-social-networks__item:nth-child(5) {
+	background-color: #86c9ef;
+}
+.ba-social-networks {
+	margin-top: 35px;}
+
+	.ba-social-networks__list {
+		list-style-type: none;
+		text-align: center;
+		padding-left: 0;
+	}
+	.ba-social-networks__item {
+		display: inline-block;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+	.ba-social-networks__link {
+		width: 24px;
+		height: 24px;
+		display: inline-block;
+		line-height: 1;
+		text-align: center;
+		margin: 3px;
+		padding-top: 5px;
+	}
+}
+.ba-social-networks__item:nth-child(1){
+	background-color: #3b5998;
+}
+.ba-social-networks__item:nth-child(2) {
+  background-color: #26a6d1;
+}
+.ba-social-networks__item:nth-child(3) {
+  background-color: #0e76a8;
+}
+.ba-social-networks__item:nth-child(4) {
+  background-color: #3f729b;
+}
+.ba-social-networks__item:nth-child(5) {
+  background-color: #86c9ef;
+}
